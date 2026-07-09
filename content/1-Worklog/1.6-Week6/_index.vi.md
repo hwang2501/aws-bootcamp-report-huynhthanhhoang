@@ -1,58 +1,38 @@
 ---
-title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký công việc Tuần 6"
+date: 2026-05-22
+weight: 6
 chapter: false
-pre: " <b> 1.6. </b> "
+pre: " <b>1.6.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu tuần
 
-### Mục tiêu tuần 6:
+* Tìm hiểu các dịch vụ bảo mật trên AWS.
+* Hiểu cách quản lý danh tính và quyền truy cập bằng IAM.
+* Tìm hiểu AWS Organizations và AWS KMS.
+* Làm quen với AWS Security Hub và các công cụ bảo mật.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|------|-----------|--------------|-----------------|-------------------|
+| 2 | - Tìm hiểu mô hình Shared Responsibility Model.<br>- Ôn tập IAM User, IAM Group và IAM Policy.<br>- Tìm hiểu nguyên tắc phân quyền Least Privilege. | 26/05/2026 | 26/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tìm hiểu IAM Role và các trường hợp sử dụng.<br>- Thực hành gán IAM Role cho EC2 Instance.<br>- Kiểm tra quyền truy cập tài nguyên AWS. | 27/05/2026 | 27/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Tìm hiểu AWS Organizations.<br>- Tìm hiểu Organizational Unit (OU) và Service Control Policy (SCP). | 28/05/2026 | 28/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Tìm hiểu AWS Key Management Service (KMS).<br>- Thực hành tạo KMS Key và tìm hiểu cơ chế mã hóa dữ liệu trên AWS. | 29/05/2026 | 29/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Tìm hiểu AWS Security Hub.<br>- Thực hành quản lý Tags và Resource Groups.<br>- Tổng hợp kiến thức và hoàn thành Module 05. | 30/05/2026 | 30/05/2026 | https://cloudjourney.awsstudygroup.com/ |
 
+### Kết quả đạt được
 
-### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu mô hình bảo mật Shared Responsibility Model.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Biết sử dụng IAM Role để cấp quyền cho dịch vụ AWS.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hiểu cách tổ chức nhiều tài khoản bằng AWS Organizations.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hiểu cơ chế mã hóa dữ liệu với AWS KMS.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Làm quen với AWS Security Hub để giám sát bảo mật.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thành Module 05 và củng cố kiến thức về bảo mật trên AWS.

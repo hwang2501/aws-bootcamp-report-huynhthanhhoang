@@ -1,126 +1,134 @@
 ---
 title: "Event 2"
-date: 2024-01-01
-weight: 1
+date: 2026-06-27
+weight: 2
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b>4.2.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Event Report: "FCAJ Community Day: Data Driven, AI Risen"
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+## Event Information
 
-### Event Objectives
+- **Date:** June 27, 2026
+- **Location:** FCAJ Community Day
+- **Theme:** Data Driven, AI Risen
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+---
 
-### Speakers
+## Event Objectives
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- Learn practical solutions for modern Cloud Operations.
+- Explore Enterprise AgenticOps Platform for AI-driven automation.
+- Understand the architecture of AI Voice Agents and Streaming Systems.
+- Learn practical applications of GenAI in software development and cloud operations.
 
-### Key Highlights
+---
 
-#### Identifying the drawbacks of legacy application architecture
+## Speakers
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- **Steve Tran** – CTO & Founder, CloudThinker
+- **Trung Vu** – CEO, Revve AI
+- **Truong Tran** – AI Solution Sales, Noventiq
+- **Anh Dang** – Solution Sales, Noventiq
 
-#### Transitioning to modern application architecture – Microservices
+---
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+## Key Highlights
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+### Cloud Operations Paradox
 
-#### Domain-Driven Design (DDD)
+- Evolution from Monolithic architecture to Microservices and Kubernetes.
+- Increasing number of monitoring tools, engineers, and operational complexity.
+- MTTR remains almost unchanged despite increased investment.
+- Importance of reducing operational cost through intelligent automation.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### Enterprise AgenticOps Platform
 
-#### Event-Driven Architecture
+CloudThinker introduced an AI-driven automation platform using specialized AI Agents.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+**AI Agents**
 
-#### Compute Evolution
+- Cloud Agent
+- Kubernetes Agent
+- Security Agent
+- Database Agent
+- Super Agent
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+**Real-world demonstrations**
 
-#### Amazon Q Developer
+- Automatically resolved Kubernetes Pod CrashLoop.
+- Reviewed Infrastructure as Code (IaC) security.
+- Optimized EC2 cost.
+- Automatically fixed Security Drift issues.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+### Voice Agent Streaming Systems
 
-### Key Takeaways
+- Bidirectional Audio Streaming Architecture.
+- Speech-to-Speech (S2S) processing.
+- Ultra-low latency communication.
 
-#### Design Mindset
+**Main Challenges**
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- Reliability
+- Tool Calling
+- Vietnamese language support
 
-#### Technical Architecture
+---
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+## Knowledge Gained
 
-#### Modernization Strategy
+### Design Thinking
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- Observability alone is not enough.
+- Automation should focus on taking action rather than only detecting incidents.
+- Specialized AI Agents perform better than one general-purpose AI model.
+- Production systems are significantly more complex than demo environments.
 
-### Applying to Work
+### Technical Architecture
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- Streaming architecture for Voice AI.
+- Integration with SIP/PSTN providers.
+- AWS cloud services for real-time processing.
+- Automated remediation workflow.
 
-### Event Experience
+### Modernization Strategy
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+- Measure improvements using KPIs such as MTTR and Cloud Cost.
+- Reduce repetitive engineering tasks through AI automation.
+- Build AI Voice systems incrementally while ensuring reliability.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+---
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+## Application to Work
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+- Apply AgenticOps concepts to automate cloud operations.
+- Improve MTTR by implementing automated remediation workflows.
+- Research AI Voice architecture for future intelligent chatbot and voice assistant projects.
+- Apply AWS services to build scalable AI applications.
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+---
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+## Event Experience
 
-#### Some event photos
-*Add your event photos here*  
+Participating in **FCAJ Community Day: Data Driven, AI Risen** provided valuable insights into modern cloud operations and enterprise AI applications.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+The sessions demonstrated how AI Agents can automate cloud infrastructure management, reduce operational costs, and improve incident response. I also gained a better understanding of Voice Agent Streaming Systems and the practical challenges of deploying AI applications, especially for Vietnamese users.
+
+The event also provided an opportunity to connect with professionals, exchange ideas, and learn from real-world case studies shared by industry experts.
+
+---
+
+## Lessons Learned
+
+- AgenticOps can significantly reduce operational workload while improving system reliability.
+- Cloud modernization should focus on measurable business outcomes rather than simply adopting new technologies.
+- AI Voice solutions require careful consideration of reliability, tool calling, and language-specific challenges before production deployment.
+
+---
+
+## Event Photos
+* ![](/images/4-EventParticipated/meetup3.jpg)
+* ![](/images/4-EventParticipated/meetup4.jpg)
+* ![](/images/4-EventParticipated/meetup5.jpg)
+* ![](/images/4-EventParticipated/meetup6.jpg)

@@ -1,59 +1,38 @@
 ---
-title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký công việc Tuần 4"
+date: 2026-05-08
+weight: 4
 chapter: false
-pre: " <b> 1.4. </b> "
+pre: " <b>1.4.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu tuần
 
-### Mục tiêu tuần 4:
+* Tìm hiểu dịch vụ Amazon EC2 và các dịch vụ Compute trên AWS.
+* Hiểu các thành phần của EC2 như Instance Type, AMI, Key Pair và EBS.
+* Thực hành tạo và quản lý EC2 Instance.
+* Tìm hiểu các phương thức kết nối đến EC2.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|------|-----------|--------------|-----------------|-------------------|
+| 2 | - Tìm hiểu Amazon EC2.<br>- Tìm hiểu Instance Types, AMI và Key Pair.<br>- Hiểu quy trình khởi tạo EC2 Instance. | 12/05/2026 | 12/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tìm hiểu Elastic Block Store (EBS).<br>- Tìm hiểu User Data và Metadata.<br>- Hiểu cách lưu trữ dữ liệu trên EC2. | 13/05/2026 | 13/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Thực hành tạo EC2 Instance.<br>- Cấu hình Security Group.<br>- Kết nối EC2 bằng EC2 Instance Connect và SSH. | 14/05/2026 | 14/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Tìm hiểu Elastic IP và EC2 Auto Scaling.<br>- Thực hành quản lý địa chỉ IP và theo dõi trạng thái EC2. | 15/05/2026 | 15/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Tìm hiểu Amazon EFS, Amazon FSx và Amazon Lightsail.<br>- Tổng hợp kiến thức Module 03 và hoàn thành các bài Lab. | 16/05/2026 | 16/05/2026 | https://cloudjourney.awsstudygroup.com/ |
 
+### Kết quả đạt được
 
-### Kết quả đạt được tuần 4:
+* Hiểu nguyên lý hoạt động của Amazon EC2.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Biết tạo và quản lý EC2 Instance.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Thành thạo kết nối EC2 bằng SSH và EC2 Instance Connect.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hiểu cách sử dụng EBS để lưu trữ dữ liệu.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Nắm được khái niệm EC2 Auto Scaling, Elastic IP, EFS, FSx và Lightsail.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thành Module 03 và sẵn sàng học các dịch vụ lưu trữ trên AWS.

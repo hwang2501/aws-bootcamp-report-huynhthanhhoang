@@ -1,6 +1,6 @@
 ---
 title: "Internship Report"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 ---
@@ -13,25 +13,25 @@ chapter: false
 {{% /notice %}}
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Huynh Thanh Hoang
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Phone Number:** 0398941885 
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** huynhthanhhoang0369@gmail.com
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** HCMC University of Technology (HUTECH)
 
 &emsp; **Major:** Information Technology
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** 22DTHA3
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
 &emsp; **Internship Position:** FCJ Cloud Intern
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 17/04/2026 to 10/07/2026
 
-![Your profile picture](/images/avatar.png)
+![Your profile picture](/images/avatar1.png)
 
 ### Report Content
 

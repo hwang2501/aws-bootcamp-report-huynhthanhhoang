@@ -1,59 +1,32 @@
 ---
-title: "Worklog Tuần 10"
-date: 2024-01-01
-weight: 2
+title: "Nhật ký công việc Tuần 10"
+date: 2026-06-19
+weight: 10
 chapter: false
-pre: " <b> 1.10. </b> "
+pre: " <b>1.10.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu tuần
 
-### Mục tiêu tuần 10:
+* Phát triển chức năng tìm kiếm và hỏi đáp tài liệu.
+* Tích hợp Amazon Bedrock Embeddings để hỗ trợ tìm kiếm ngữ nghĩa.
+* Xây dựng chức năng Chat với tài liệu (RAG).
+* Hoàn thiện giao diện hiển thị kết quả AI.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|------|-----------|--------------|-----------------|-------------------|
+| 2 | - Xây dựng chức năng tìm kiếm tài liệu theo tên, loại và thời gian tải lên.<br>- Tối ưu giao diện hiển thị danh sách tài liệu. | 23/06/2026 | 23/06/2026 | https://docs.aws.amazon.com/ |
+| 3 | - Tìm hiểu và tích hợp Amazon Bedrock Embeddings để tạo vector biểu diễn nội dung tài liệu.<br>- Thiết kế quy trình lưu trữ dữ liệu phục vụ tìm kiếm ngữ nghĩa. | 24/06/2026 | 24/06/2026 | https://docs.aws.amazon.com/bedrock/ |
+| 4 | - Xây dựng chức năng Semantic Search dựa trên Embeddings.<br>- Kiểm thử khả năng tìm kiếm theo ngữ cảnh. | 25/06/2026 | 25/06/2026 | https://docs.aws.amazon.com/bedrock/ |
+| 5 | - Phát triển chức năng Chat với tài liệu theo mô hình Retrieval-Augmented Generation (RAG).<br>- Kết nối dữ liệu tìm kiếm với Amazon Bedrock để tạo câu trả lời. | 26/06/2026 | 26/06/2026 | https://docs.aws.amazon.com/bedrock/ |
+| 6 | - Hoàn thiện giao diện hiển thị kết quả AI.<br>- Kiểm thử toàn bộ chức năng tìm kiếm và hỏi đáp tài liệu. | 27/06/2026 | 27/06/2026 | https://docs.amplify.aws/ |
 
+### Kết quả đạt được
 
-### Kết quả đạt được tuần 10:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thành chức năng tìm kiếm tài liệu.
+* Tích hợp Amazon Bedrock Embeddings phục vụ Semantic Search.
+* Xây dựng thành công chức năng Chat với tài liệu theo mô hình RAG.
+* Hoàn thiện giao diện hiển thị kết quả AI.
+* Kiểm thử và tối ưu các chức năng tìm kiếm và hỏi đáp tài liệu.

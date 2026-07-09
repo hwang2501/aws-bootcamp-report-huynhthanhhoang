@@ -1,44 +1,78 @@
 ---
-title: "Chia sẻ, đóng góp ý kiến"
-date: 2024-01-01
+title: "Chia sẻ & Đóng góp ý kiến"
+date: 2026-07-10
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
+
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn**, kể cả phần cảnh báo này.
 {{% /notice %}}
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud Journey, giúp team FCJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+# Chia sẻ & Đóng góp ý kiến
 
-### Đánh giá chung
+Sau 12 tuần tham gia chương trình thực tập **First Cloud Journey (FCJ)**, tôi đã có cơ hội học tập, thực hành và trải nghiệm nhiều công nghệ trên nền tảng AWS. Dưới đây là những đánh giá và ý kiến cá nhân của tôi về chương trình.
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+---
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+## Đánh giá chung
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+### 1. Môi trường làm việc
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+Môi trường học tập và làm việc tại FCJ rất chuyên nghiệp, thân thiện và cởi mở. Các anh/chị hướng dẫn luôn sẵn sàng hỗ trợ khi gặp khó khăn, đồng thời tạo điều kiện để sinh viên chủ động tìm hiểu và giải quyết vấn đề. Lộ trình học được xây dựng rõ ràng, giúp tôi dễ dàng theo dõi và hoàn thành các nội dung theo từng tuần.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+### 2. Sự hỗ trợ từ Mentor và Ban tổ chức
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+Mentor luôn nhiệt tình giải đáp các thắc mắc về kỹ thuật, định hướng cách tiếp cận vấn đề thay vì đưa ra đáp án ngay. Điều này giúp tôi rèn luyện khả năng tư duy và tự học. Ban tổ chức cũng hỗ trợ rất nhanh trong quá trình học tập, cập nhật tài liệu và thông báo đầy đủ các hoạt động của chương trình.
 
+### 3. Mức độ phù hợp với chuyên ngành
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+Nội dung thực tập phù hợp với chuyên ngành **Công nghệ phần mềm** mà tôi đang theo học. Những kiến thức về AWS như IAM, VPC, EC2, S3, Lambda, DynamoDB và Amazon Bedrock giúp tôi hiểu rõ hơn về Cloud Computing và có cơ hội áp dụng kiến thức vào các bài thực hành và dự án thực tế.
 
+### 4. Cơ hội học tập và phát triển kỹ năng
 
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+Chương trình giúp tôi nâng cao cả kiến thức chuyên môn và kỹ năng mềm. Ngoài việc thực hành trên AWS, tôi còn cải thiện khả năng đọc tài liệu tiếng Anh, viết báo cáo, làm việc nhóm, quản lý thời gian và trình bày ý tưởng trong các buổi workshop.
+
+### 5. Văn hóa và tinh thần làm việc
+
+FCJ xây dựng một môi trường học tập tích cực, nơi mọi người luôn sẵn sàng chia sẻ kinh nghiệm và hỗ trợ lẫn nhau. Điều này giúp tôi cảm thấy thoải mái khi trao đổi, học hỏi và phát triển bản thân.
+
+### 6. Chính sách và quyền lợi dành cho thực tập sinh
+
+Mặc dù chương trình không có trợ cấp, nhưng bù lại sinh viên được tiếp cận với nhiều tài nguyên giá trị như AWS Credits, hệ thống lab thực hành, các buổi workshop, tài liệu chuyên môn và cơ hội giao lưu với các chuyên gia trong lĩnh vực Cloud.
+
+---
+
+## Một số câu hỏi
+
+### Điều bạn hài lòng nhất trong quá trình thực tập là gì?
+
+Điều tôi hài lòng nhất là được học và thực hành trực tiếp trên nền tảng AWS thay vì chỉ học lý thuyết. Các bài lab, workshop và dự án giúp tôi hiểu rõ hơn cách xây dựng và triển khai các giải pháp Cloud trong thực tế.
+
+### Theo bạn chương trình cần cải thiện điều gì?
+
+Tôi mong chương trình có thêm một tài liệu hướng dẫn dành cho thực tập sinh mới, bao gồm cấu trúc báo cáo, quy trình học tập và các lưu ý khi thực hiện dự án. Điều này sẽ giúp sinh viên làm quen với chương trình nhanh hơn.
+
+### Bạn có sẵn sàng giới thiệu chương trình cho bạn bè không?
+
+Có. Tôi sẵn sàng giới thiệu chương trình FCJ cho các bạn sinh viên yêu thích Cloud Computing, AWS hoặc DevOps vì đây là môi trường học tập thực tế, có lộ trình rõ ràng và cộng đồng luôn hỗ trợ lẫn nhau.
+
+---
+
+## Đề xuất và mong muốn
+
+### Đề xuất
+
+- Tổ chức thêm nhiều buổi chia sẻ kỹ thuật từ các chuyên gia AWS và doanh nghiệp.
+- Tăng số lượng workshop thực hành về kiến trúc hệ thống trên AWS.
+- Tạo thêm các dự án nhóm để sinh viên có cơ hội rèn luyện kỹ năng làm việc nhóm.
+- Tiếp tục duy trì các sự kiện cộng đồng để sinh viên giao lưu và mở rộng mối quan hệ.
+
+### Mong muốn
+
+Tôi mong có cơ hội tiếp tục đồng hành cùng cộng đồng First Cloud Journey trong các chương trình đào tạo hoặc dự án về AWS trong tương lai để tiếp tục phát triển kiến thức và kỹ năng của bản thân.
+
+### Lời cảm ơn
+
+Tôi xin chân thành cảm ơn Ban tổ chức, các Mentor và cộng đồng First Cloud Journey đã luôn đồng hành, hỗ trợ và tạo điều kiện để tôi hoàn thành chương trình thực tập. Đây là một trải nghiệm rất ý nghĩa, giúp tôi có thêm nền tảng về Cloud Computing, AWS cũng như định hướng rõ ràng hơn cho công việc sau khi tốt nghiệp.

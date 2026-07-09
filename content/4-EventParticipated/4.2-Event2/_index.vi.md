@@ -1,125 +1,131 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Sự kiện 2"
+date: 2026-06-27
+weight: 2
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b>4.2.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Báo cáo sự kiện: "FCAJ Community Day: Data Driven, AI Risen"
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+## Thông tin sự kiện
 
-### Mục Đích Của Sự Kiện
+- **Ngày:** 27/06/2026
+- **Chủ đề:** FCAJ Community Day: Data Driven, AI Risen
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+---
 
-### Danh Sách Diễn Giả
+## Mục tiêu tham gia
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- Tìm hiểu các giải pháp thực tế trong vận hành hệ thống Cloud.
+- Khám phá mô hình Enterprise AgenticOps Platform ứng dụng AI vào tự động hóa.
+- Tìm hiểu kiến trúc hệ thống Voice Agent và Streaming Systems.
+- Cập nhật các ứng dụng GenAI trong phát triển phần mềm và tối ưu vận hành.
 
-### Nội Dung Nổi Bật
+---
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+## Diễn giả
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+- **Steve Tran** – CTO & Founder, CloudThinker
+- **Trung Vu** – CEO, Revve AI
+- **Truong Tran** – AI Solution Sales, Noventiq
+- **Anh Dang** – Solution Sales, Noventiq
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+---
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+## Nội dung nổi bật
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+### Nghịch lý vận hành đám mây (Cloud Operations Paradox)
 
-#### Domain-Driven Design (DDD)
+- Sự phát triển từ kiến trúc Monolithic sang Microservices, Containers và Kubernetes.
+- Hệ thống ngày càng phức tạp với nhiều công cụ giám sát và vận hành.
+- Mặc dù số lượng công cụ và kỹ sư tăng lên, chỉ số MTTR vẫn không được cải thiện đáng kể.
+- Tầm quan trọng của việc ứng dụng AI và tự động hóa nhằm giảm chi phí vận hành và nâng cao hiệu quả.
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+### Enterprise AgenticOps Platform
 
-#### Event-Driven Architecture
+CloudThinker giới thiệu nền tảng tự động hóa vận hành sử dụng các AI Agent chuyên biệt.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+**Các AI Agent**
 
-#### Compute Evolution
+- Cloud Agent
+- Kubernetes Agent
+- Security Agent
+- Database Agent
+- Super Agent
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+**Các tình huống thực tế**
 
-#### Amazon Q Developer
+- Tự động xử lý lỗi Kubernetes Pod CrashLoop.
+- Kiểm tra bảo mật mã nguồn hạ tầng (Infrastructure as Code).
+- Tối ưu chi phí EC2.
+- Tự động khắc phục các lỗi sai lệch cấu hình bảo mật.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+### Kiến trúc Voice Agent Streaming
 
-### Những Gì Học Được
+- Kiến trúc truyền tải âm thanh hai chiều theo thời gian thực.
+- Mô hình Speech-to-Speech (S2S).
+- Phản hồi với độ trễ thấp.
 
-#### Tư Duy Thiết Kế
+**Những thách thức chính**
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- Độ tin cậy (Reliability).
+- Khả năng Tool Calling.
+- Xử lý ngôn ngữ tiếng Việt.
 
-#### Kiến Trúc Kỹ Thuật
+---
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+## Kiến thức và kinh nghiệm đạt được
 
-#### Chiến Lược Hiện Đại Hóa
+### Tư duy thiết kế
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- Quan sát hệ thống (Observability) chỉ là bước đầu, hệ thống hiện đại cần có khả năng tự động xử lý sự cố.
+- Phân chia nhiệm vụ cho nhiều AI Agent chuyên biệt sẽ hiệu quả hơn sử dụng một mô hình AI tổng quát.
+- Môi trường Production luôn phức tạp hơn rất nhiều so với môi trường Demo.
 
-### Ứng Dụng Vào Công Việc
+### Kiến trúc kỹ thuật
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- Hiểu rõ hơn về kiến trúc Streaming cho Voice AI.
+- Tìm hiểu cách tích hợp hạ tầng Cloud với các dịch vụ thoại.
+- Học quy trình tự động hóa phát hiện và xử lý sự cố.
 
-### Trải nghiệm trong event
+### Chiến lược hiện đại hóa
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- Đánh giá hiệu quả bằng các chỉ số như MTTR và Cloud Cost.
+- Ứng dụng AI để giảm tải các công việc lặp lại.
+- Triển khai Voice AI theo từng giai đoạn để đảm bảo độ ổn định.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+---
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+## Ứng dụng vào học tập và công việc
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+- Nghiên cứu áp dụng mô hình AgenticOps để tự động hóa việc quản lý hạ tầng Cloud.
+- Xây dựng quy trình tự động xử lý các lỗi phổ biến nhằm giảm thời gian khắc phục sự cố.
+- Tìm hiểu kiến trúc Voice Agent để áp dụng vào các dự án Chatbot và Voice Bot trong tương lai.
+- Tiếp tục học tập và khai thác các dịch vụ AWS phục vụ phát triển các hệ thống AI.
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+---
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+## Trải nghiệm tại sự kiện
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+Tham gia **FCAJ Community Day: Data Driven, AI Risen** giúp tôi có cơ hội tiếp cận với nhiều kiến thức thực tế về vận hành hệ thống Cloud và các ứng dụng AI trong doanh nghiệp.
+
+Các diễn giả đã chia sẻ nhiều kinh nghiệm triển khai thực tế, đặc biệt là cách ứng dụng AI Agent vào tự động hóa vận hành, tối ưu chi phí Cloud và nâng cao hiệu quả xử lý sự cố. Bên cạnh đó, phần trình bày về Voice Agent Streaming Systems giúp tôi hiểu rõ hơn những thách thức khi xây dựng các hệ thống AI hội thoại, đặc biệt đối với tiếng Việt.
+
+Ngoài những kiến thức chuyên môn, sự kiện còn là cơ hội để giao lưu với các chuyên gia và các thành viên trong cộng đồng AWS, mở rộng mối quan hệ và học hỏi thêm nhiều kinh nghiệm thực tế.
+
+---
+
+## Bài học rút ra
+
+- AI và AgenticOps là xu hướng quan trọng trong quá trình hiện đại hóa hệ thống Cloud.
+- Việc tự động hóa giúp giảm khối lượng công việc cho kỹ sư và nâng cao khả năng mở rộng của hệ thống.
+- Khi xây dựng các ứng dụng AI, cần chú trọng đến độ tin cậy, khả năng tích hợp công cụ và đặc điểm của ngôn ngữ trước khi triển khai thực tế.
+
+---
+
+## Hình ảnh sự kiện
+* ![](/images/4-EventParticipated/meetup3.jpg)
+* ![](/images/4-EventParticipated/meetup4.jpg)
+* ![](/images/4-EventParticipated/meetup5.jpg)
+* ![](/images/4-EventParticipated/meetup6.jpg)

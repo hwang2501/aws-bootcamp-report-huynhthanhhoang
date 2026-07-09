@@ -1,59 +1,33 @@
 ---
-title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký công việc Tuần 9"
+date: 2026-06-12
+weight: 9
 chapter: false
-pre: " <b> 1.9. </b> "
+pre: " <b>1.9.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu tuần
 
-### Mục tiêu tuần 9:
+* Xây dựng quy trình xử lý tài liệu bằng AI.
+* Tích hợp AWS Lambda và Amazon Textract.
+* Sử dụng Amazon Bedrock để phân tích nội dung tài liệu.
+* Lưu kết quả xử lý vào Amazon DynamoDB.
+* Đồng bộ trạng thái xử lý bằng AWS AppSync.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|------|-----------|--------------|-----------------|-------------------|
+| 2 | - Cấu hình Amazon S3 Event Trigger để tự động kích hoạt AWS Lambda khi người dùng tải tài liệu lên. | 16/06/2026 | 16/06/2026 | https://docs.aws.amazon.com/lambda/ |
+| 3 | - Xây dựng hàm AWS Lambda xử lý tài liệu.<br>- Tích hợp Amazon Textract để trích xuất nội dung từ tài liệu PDF và hình ảnh. | 17/06/2026 | 17/06/2026 | https://docs.aws.amazon.com/textract/ |
+| 4 | - Tích hợp Amazon Bedrock để phân tích nội dung tài liệu.<br>- Xây dựng chức năng tóm tắt và phân loại tài liệu tự động. | 18/06/2026 | 18/06/2026 | https://docs.aws.amazon.com/bedrock/ |
+| 5 | - Thiết kế và lưu kết quả xử lý AI vào Amazon DynamoDB.<br>- Kiểm thử quy trình xử lý tài liệu. | 19/06/2026 | 19/06/2026 | https://docs.aws.amazon.com/amazondynamodb/ |
+| 6 | - Tích hợp AWS AppSync Subscription để cập nhật trạng thái xử lý theo thời gian thực.<br>- Hoàn thiện quy trình AI Pipeline. | 20/06/2026 | 20/06/2026 | https://docs.aws.amazon.com/appsync/ |
 
+### Kết quả đạt được
 
-### Kết quả đạt được tuần 9:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thành quy trình AI Pipeline từ Amazon S3 đến AWS Lambda.
+* Tích hợp thành công Amazon Textract để trích xuất nội dung tài liệu.
+* Sử dụng Amazon Bedrock để tự động tóm tắt và phân loại tài liệu.
+* Lưu kết quả xử lý vào Amazon DynamoDB.
+* Hoàn thiện chức năng cập nhật trạng thái xử lý theo thời gian thực bằng AWS AppSync.
