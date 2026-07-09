@@ -128,7 +128,7 @@ The event also provided an opportunity to connect with professionals, exchange i
 ---
 
 ## Event Photos
-* ![](/images/4-EventParticipated/meetup3.jpg)
-* ![](/images/4-EventParticipated/meetup4.jpg)
-* ![](/images/4-EventParticipated/meetup5.jpg)
-* ![](/images/4-EventParticipated/meetup6.jpg)
+* ![](images/4-EventParticipated/meetup3.jpg)
+* ![](images/4-EventParticipated/meetup4.jpg)
+* ![](images/4-EventParticipated/meetup5.jpg)
+* ![](images/4-EventParticipated/meetup6.jpg)

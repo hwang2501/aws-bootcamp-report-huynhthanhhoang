@@ -55,6 +55,6 @@ Besides the technical knowledge, the event created an opportunity to connect wit
 
 #### Event Photos
 
-* ![](/images/4-EventParticipated/meetup1.jpg)
+* ![](images/4-EventParticipated/meetup1.jpg)
 
-* ![](/images/4-EventParticipated/meetup2.jpg)
+* ![](images/4-EventParticipated/meetup2.jpg)

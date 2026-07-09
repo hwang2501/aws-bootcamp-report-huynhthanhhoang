@@ -125,7 +125,7 @@ Ngoài những kiến thức chuyên môn, sự kiện còn là cơ hội để 
 ---
 
 ## Hình ảnh sự kiện
-* ![](/images/4-EventParticipated/meetup3.jpg)
-* ![](/images/4-EventParticipated/meetup4.jpg)
-* ![](/images/4-EventParticipated/meetup5.jpg)
-* ![](/images/4-EventParticipated/meetup6.jpg)
+* ![](images/4-EventParticipated/meetup3.jpg)
+* ![](images/4-EventParticipated/meetup4.jpg)
+* ![](images/4-EventParticipated/meetup5.jpg)
+* ![](images/4-EventParticipated/meetup6.jpg)
