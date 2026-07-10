@@ -1,3 +1,7 @@
 {{ $image := .Get "src" }}
 {{ $alt := .Get "alt" | default "" }}
-<img src="{{ .Site.BaseURL | strings.TrimSuffix "/" }}{{ $image }}" alt="{{ $alt }}">
+{{ $baseURL := .Site.BaseURL }}
+{{ if strings.HasPrefix $image "/" }}
+  {{ $image = strings.TrimPrefix "/" $image }}
+{{ end }}
+<img src="{{ $baseURL }}{{ $image }}" alt="{{ $alt }}" loading="lazy">
