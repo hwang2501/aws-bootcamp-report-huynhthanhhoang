@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# Các Bài Blogs Đã Đăng
-
 Tại phần này sẽ liệt kê và giới thiệu các bài blogs mà bạn đã đăng lên AWS Study Group. Ví dụ:
 
 ## Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY

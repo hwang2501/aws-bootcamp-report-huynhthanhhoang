@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# Blogs Posted
-
 This section will list and introduce the blogs you have posted to AWS Study Group. For example:
 
 ## Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY
