@@ -230,15 +230,6 @@ By the end of this step, you will have established:
 - DynamoDB data schema containing `Document` and `UserQuota` models in `amplify/data/resource.ts`.
 - Central imports in `amplify/backend.ts`.
 
-![PLACEHOLDER-5.3-01](/images/5-Workshop/5.3-Upload-pipeline/5.3-01-amplify-folder-structure.png)
-
-{{% notice tip %}}
-Do not deploy yet. We will configure the pipeline linkages inside `backend.ts` in the next section before running deployment.
-{{% /notice %}}
-
-
----
-
 ### Amplify Project Structure
 
 {{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-01-amplify-folder-structure.png" alt="Amplify Folder Structure" >}}
