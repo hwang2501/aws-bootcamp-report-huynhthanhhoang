@@ -37,7 +37,7 @@ During my internship, I participated in two events. Each one was a memorable exp
 ### [Event 2](4.2-Event2/)  
 &emsp;**Event Name:** FCAJ Community Day: Data Driven, AI Risen  
 
-&emsp;**Date & Time:** June 27, 2026  
+&emsp;**Date & Time:** 09:00 AM - 12:00 PM, June 27, 2026  
 
 &emsp;**Location:** 26th Floor, Bitexco Financial Tower  
 
