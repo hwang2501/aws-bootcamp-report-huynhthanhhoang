@@ -1,21 +1,23 @@
 ---
-title: "Các bài blogs đã dịch"
+title: "Các Bài Blogs Đã Đăng"
 date: 2024-01-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã dịch:
+# Các Bài Blogs Đã Đăng
 
-###  [Blog 1 - Getting started with healthcare data lakes: Using microservices](3.1-Blog1/)
+Tại phần này sẽ liệt kê và giới thiệu các bài blogs mà bạn đã đăng lên AWS Study Group. Ví dụ:
 
-###  [Blog 2 - Getting started with healthcare data lakes: Using microservices](3.2-Blog2/)
+## Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY
 
-###  [Blog 3 - Getting started with healthcare data lakes: Using microservices](3.3-Blog3/)
+Bài blog này giới thiệu tính năng policies mới được thêm vào Amazon IAM's Pod Identity, cho phép bạn hạn chế quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo nhiều IAM role riêng biệt. Đây là một bước tiến quan trọng giúp thực hiện nguyên tắc least privilege một cách hiệu quả hơn trong các môi trường Kubernetes quy mô lớn.
 
-###  [Blog 4 - Getting started with healthcare data lakes: Using microservices](3.4-Blog4/)
+## Blog 2 - ...
 
-###  [Blog 5 - Getting started with healthcare data lakes: Using microservices](3.5-Blog5/)
+Bài blog này giới thiệu tính năng policies mới được thêm vào Amazon IAM's Pod Identity, cho phép bạn hạn chế quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo nhiều IAM role riêng biệt. Đây là một bước tiến quan trọng giúp thực hiện nguyên tắc least privilege một cách hiệu quả hơn trong các môi trường Kubernetes quy mô lớn.
 
-###  [Blog 6 - Getting started with healthcare data lakes: Using microservices](3.6-Blog6/)
+## Blog 3 - ...
+
+Bài blog này giới thiệu tính năng policies mới được thêm vào Amazon IAM's Pod Identity, cho phép bạn hạn chế quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo nhiều IAM role riêng biệt. Đây là một bước tiến quan trọng giúp thực hiện nguyên tắc least privilege một cách hiệu quả hơn trong các môi trường Kubernetes quy mô lớn.

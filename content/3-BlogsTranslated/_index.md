@@ -1,21 +1,23 @@
 ---
-title: "Translated Blogs"
+title: "Blogs Posted"
 date: 2024-01-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-This section will list and introduce the blogs you have translated:
+# Blogs Posted
 
-###  [Blog 1 - Getting started with healthcare data lakes: Using microservices](3.1-Blog1/)
+This section will list and introduce the blogs you have posted to AWS Study Group. For example:
 
-###  [Blog 2 - Getting started with healthcare data lakes: Using microservices](3.2-Blog2/)
+## Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY
 
-###  [Blog 3 - Getting started with healthcare data lakes: Using microservices](3.3-Blog3/)
+This blog introduces the newly added policies feature in Amazon IAM's Pod Identity, which allows you to narrow down IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps amplify the principle of least privilege more effectively in large-scale Kubernetes environments.
 
-###  [Blog 4 - Getting started with healthcare data lakes: Using microservices](3.4-Blog4/)
+## Blog 2 - ...
 
-###  [Blog 5 - Getting started with healthcare data lakes: Using microservices](3.5-Blog5/)
+This blog introduces the newly added policies feature in Amazon IAM's Pod Identity, which allows you to narrow down IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps amplify the principle of least privilege more effectively in large-scale Kubernetes environments.
 
-###  [Blog 6 - Getting started with healthcare data lakes: Using microservices](3.6-Blog6/)
+## Blog 3 - ...
+
+This blog introduces the newly added policies feature in Amazon IAM's Pod Identity, which allows you to narrow down IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps amplify the principle of least privilege more effectively in large-scale Kubernetes environments.
