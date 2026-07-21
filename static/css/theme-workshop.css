@@ -226,3 +226,21 @@ div.notices.info p {
   border-top: 30px solid #fd9827;
   background: #fff2db;
 }
+
+
+/* Fix anchor jump offset for fixed header */
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 80px;
+}
+
+h1:target,
+h2:target,
+h3:target,
+h4:target,
+h5:target {
+  scroll-margin-top: 100px;
+}
