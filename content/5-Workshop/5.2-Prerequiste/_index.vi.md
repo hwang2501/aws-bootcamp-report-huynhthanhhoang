@@ -141,19 +141,3 @@ Lưu OpenRouter API key trước khi deploy Lambda:
 3. Bật quyền truy cập model Bedrock:
    - Mở [Bedrock Console](https://console.aws.amazon.com/bedrock/) → **Model access** → bật **Amazon Nova Lite**
 
-
----
-
-### Tham khảo hình ảnh thiết lập
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/region.png" alt="Chọn AWS Region" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/vpcs.png" alt="Cấu hình VPCs" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/ec2.png" alt="AWS EC2 Console" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/create-stack1.png" alt="CloudFormation Stack Tạo Step 1" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/create-stack2.png" alt="CloudFormation Stack Tạo Step 2" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/complete.png" alt="Thiết lập Hoàn thành" >}}

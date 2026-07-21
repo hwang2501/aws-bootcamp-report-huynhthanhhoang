@@ -141,19 +141,3 @@ Store the OpenRouter API key before deploying Lambda functions:
 3. Enable Amazon Bedrock model access:
    - Open [Bedrock Console](https://console.aws.amazon.com/bedrock/) → **Model access** → enable **Amazon Nova Lite**
 
-
----
-
-### Visual Setup References
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/region.png" alt="AWS Region Selection" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/vpcs.png" alt="VPC Configuration" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/ec2.png" alt="EC2 Console" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/create-stack1.png" alt="CloudFormation Stack Creation Step 1" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/create-stack2.png" alt="CloudFormation Stack Creation Step 2" >}}
-
-{{< img src="/images/5-Workshop/5.2-Prerequisite/complete.png" alt="Setup Complete" >}}
