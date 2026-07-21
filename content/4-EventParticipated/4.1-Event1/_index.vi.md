@@ -55,6 +55,6 @@ Ngoài những kiến thức chuyên môn, sự kiện còn là cơ hội để 
 
 #### Hình ảnh sự kiện
 
-* {{< img src="/images/4-EventParticipated/meetup1.jpg" alt="Hình ảnh 1" >}}
+* {{< img src="/images/4-EventParticipated/4.1-Event1/meetup1.jpg" alt="Hình ảnh 1" >}}
 
-* {{< img src="/images/4-EventParticipated/meetup2.jpg" alt="Hình ảnh 2" >}}
+* {{< img src="/images/4-EventParticipated/4.1-Event1/meetup2.jpg" alt="Hình ảnh 2" >}}

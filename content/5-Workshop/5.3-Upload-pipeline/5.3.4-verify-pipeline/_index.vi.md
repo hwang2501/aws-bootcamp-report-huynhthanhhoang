@@ -26,7 +26,7 @@ Received S3 Event: { Records: [{ s3: { bucket: { name: 'smart-doc-storage-...' }
 Processing file: raw/ap-southeast-1:.../1234567890-test.pdf from bucket: ...
 ```
 
-<!-- IMAGE PLACEHOLDER -->-5.3-03](/images/5-Workshop/5.3-Upload-pipeline/5.3-03-cloudwatch-lambda-a-s3-trigger.png)
+![PLACEHOLDER-5.3-03](/images/5-Workshop/5.3-Upload-pipeline/5.3-03-cloudwatch-lambda-a-s3-trigger.png)
 
 
 ---
@@ -42,7 +42,7 @@ PDF has native text (1234 chars), skipping Textract.
 
 Khi thấy dòng "skipping Textract", nghĩa là Lambda A đã dùng `pdf-parse` để trích xuất text trực tiếp, không cần gọi Textract OCR — giữ nguyên dấu tiếng Việt.
 
-<!-- IMAGE PLACEHOLDER -->-5.3-04](/images/5-Workshop/5.3-Upload-pipeline/5.3-04-cloudwatch-pdf-native-text.png)
+![PLACEHOLDER-5.3-04](/images/5-Workshop/5.3-Upload-pipeline/5.3-04-cloudwatch-pdf-native-text.png)
 
 
 ---
@@ -56,7 +56,7 @@ Parsing office file locally: raw/...
 Extracted 5678 characters.
 ```
 
-<!-- IMAGE PLACEHOLDER -->-5.3-05](/images/5-Workshop/5.3-Upload-pipeline/5.3-05-cloudwatch-office-file-extract.png)
+![PLACEHOLDER-5.3-05](/images/5-Workshop/5.3-Upload-pipeline/5.3-05-cloudwatch-office-file-extract.png)
 
 
 ---
@@ -78,10 +78,10 @@ Textract Job started: <JobId>
 [SNS] Document <id> ready for analysis (text_extracted).
 ```
 
-<!-- IMAGE PLACEHOLDER -->-5.3-06](/images/5-Workshop/5.3-Upload-pipeline/5.3-06-cloudwatch-textract-lambda-a-start.png)
+![PLACEHOLDER-5.3-06](/images/5-Workshop/5.3-Upload-pipeline/5.3-06-cloudwatch-textract-lambda-a-start.png)
 
 
-<!-- IMAGE PLACEHOLDER -->-5.3-07](/images/5-Workshop/5.3-Upload-pipeline/5.3-07-cloudwatch-lambda-b-sns-callback.png)
+![PLACEHOLDER-5.3-07](/images/5-Workshop/5.3-Upload-pipeline/5.3-07-cloudwatch-lambda-b-sns-callback.png)
 
 
 ---
@@ -98,7 +98,7 @@ Textract Job started: <JobId>
 [DDB Stream] Document <id> analysis complete.
 ```
 
-<!-- IMAGE PLACEHOLDER -->-5.3-08](/images/5-Workshop/5.3-Upload-pipeline/5.3-08-cloudwatch-lambda-b-ddb-stream-ai.png)
+![PLACEHOLDER-5.3-08](/images/5-Workshop/5.3-Upload-pipeline/5.3-08-cloudwatch-lambda-b-ddb-stream-ai.png)
 
 
 ---
@@ -110,28 +110,28 @@ Textract Job started: <JobId>
 - Xác nhận thư mục `raw/` chứa file vừa upload
 - Nếu text >300K chars, xác nhận thư mục `processed/` chứa file `-text.txt`
 
-<!-- IMAGE PLACEHOLDER -->-5.3-09](/images/5-Workshop/5.3-Upload-pipeline/5.3-09-s3-console-raw-folder.png)
+![PLACEHOLDER-5.3-09](/images/5-Workshop/5.3-Upload-pipeline/5.3-09-s3-console-raw-folder.png)
 
 
 **Bước 11.** Kiểm tra DynamoDB Console:
 - Mở **DynamoDB → Tables → Document table → Explore table items**
 - Xác nhận document có progression trạng thái đúng: `uploaded` → `processing` → `text_extracted` → (user chọn mode) → `processing` → `done`
 
-<!-- IMAGE PLACEHOLDER -->-5.3-10](/images/5-Workshop/5.3-Upload-pipeline/5.3-10-dynamodb-document-status-done.png)
+![PLACEHOLDER-5.3-10](/images/5-Workshop/5.3-Upload-pipeline/5.3-10-dynamodb-document-status-done.png)
 
 
 **Bước 12.** Kiểm tra SNS Console:
 - Mở **SNS → Topics → `textract-ocr-completed-topic`**
 - Xác nhận có subscription active cho Lambda B
 
-<!-- IMAGE PLACEHOLDER -->-5.3-11](/images/5-Workshop/5.3-Upload-pipeline/5.3-11-sns-console-subscription-active.png)
+![PLACEHOLDER-5.3-11](/images/5-Workshop/5.3-Upload-pipeline/5.3-11-sns-console-subscription-active.png)
 
 
 **Bước 13.** Kiểm tra Lambda Console:
 - Mở **Lambda → Functions → `smart-doc-upload-trigger`** và **`smart-doc-textract-result`**
 - Xác nhận invocation count tăng, không có errors
 
-<!-- IMAGE PLACEHOLDER -->-5.3-12](/images/5-Workshop/5.3-Upload-pipeline/5.3-12-lambda-console-monitoring.png)
+![PLACEHOLDER-5.3-12](/images/5-Workshop/5.3-Upload-pipeline/5.3-12-lambda-console-monitoring.png)
 
 
 ---
@@ -252,7 +252,7 @@ Khi toàn bộ pipeline hoạt động đúng, bạn sẽ thấy:
 | Kiểm tra SNS | Topic có subscription active cho Lambda B |
 | Kiểm tra UserQuota | `uploadedCount` tăng sau mỗi lần upload |
 
-<!-- IMAGE PLACEHOLDER -->-5.3-13](/images/5-Workshop/5.3-Upload-pipeline/5.3-13-frontend-document-done-result.png)
+![PLACEHOLDER-5.3-13](/images/5-Workshop/5.3-Upload-pipeline/5.3-13-frontend-document-done-result.png)
 
 {{% notice tip %}}
 Nếu bạn gặp lỗi không nằm trong danh sách trên, kiểm tra:

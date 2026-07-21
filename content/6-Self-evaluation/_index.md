@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
 During my internship at Amazon Web Services Vietnam Co., Ltd. from April 17, 2026, to July 10, 2026, I had the opportunity to learn, practice, and apply the knowledge acquired from my studies at HCMC University of Technology (HUTECH) in a real-world working environment.
 
 I participated in the FCJ Cloud Internship Program, where I learned and practiced cloud computing concepts, especially working with AWS services and cloud infrastructure. Through this internship, I improved my skills in cloud technology, system configuration, problem-solving, technical documentation, reporting, teamwork, and communication.

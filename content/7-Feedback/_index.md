@@ -6,12 +6,6 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim**, including this warning.
-{{% /notice %}}
-
-# Feedback & Suggestions
-
 During my internship at the **First Cloud Journey (FCJ)** program, I gained valuable technical knowledge and practical experience in AWS Cloud. Below are my personal evaluations and suggestions after completing the internship.
 
 ---

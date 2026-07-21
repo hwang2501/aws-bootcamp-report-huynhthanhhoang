@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 Trong thời gian thực tập tại **Công ty TNHH Amazon Web Services Việt Nam** từ **ngày 17/04/2026 đến ngày 10/07/2026**, tôi đã có cơ hội được học tập, rèn luyện và áp dụng những kiến thức đã được học tại trường **Đại học Công nghệ TP.HCM (HUTECH)** vào môi trường làm việc thực tế.
 
 Tôi tham gia chương trình **FCJ Cloud Internship**, trong đó được tìm hiểu và thực hành các kiến thức liên quan đến điện toán đám mây, đặc biệt là các dịch vụ và nền tảng của **AWS**. Thông qua quá trình thực tập, tôi đã cải thiện các kỹ năng về **công nghệ đám mây, cấu hình hệ thống, giải quyết vấn đề, viết tài liệu kỹ thuật, báo cáo, làm việc nhóm và giao tiếp**.

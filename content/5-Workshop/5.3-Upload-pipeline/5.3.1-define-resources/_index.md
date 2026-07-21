@@ -232,8 +232,6 @@ By the end of this step, you will have established:
 
 ![PLACEHOLDER-5.3-01](/images/5-Workshop/5.3-Upload-pipeline/5.3-01-amplify-folder-structure.png)
 
-<!-- IMAGE PLACEHOLDER: 5.3-01-amplify-folder-structure.png -->
-
 {{% notice tip %}}
 Do not deploy yet. We will configure the pipeline linkages inside `backend.ts` in the next section before running deployment.
 {{% /notice %}}

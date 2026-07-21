@@ -6,12 +6,6 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn**, kể cả phần cảnh báo này.
-{{% /notice %}}
-
-# Chia sẻ & Đóng góp ý kiến
-
 Sau 12 tuần tham gia chương trình thực tập **First Cloud Journey (FCJ)**, tôi đã có cơ hội học tập, thực hành và trải nghiệm nhiều công nghệ trên nền tảng AWS. Dưới đây là những đánh giá và ý kiến cá nhân của tôi về chương trình.
 
 ---
