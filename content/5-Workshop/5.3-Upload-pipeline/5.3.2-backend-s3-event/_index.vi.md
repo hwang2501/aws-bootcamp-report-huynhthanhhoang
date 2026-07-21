@@ -260,31 +260,3 @@ Sau khi hoàn thành bước này, file `backend.ts` đã có:
 {{% notice tip %}}
 Chưa deploy ở bước này — còn thiếu SNS Topic, Textract IAM Role và DynamoDB Stream config. Tiếp tục sang mục 5.3.3 để hoàn thành.
 {{% /notice %}}
-
----
-
-### Tài liệu tham khảo với hình ảnh
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-01-amplify-folder-structure.png" alt="Cấu trúc thư mục Amplify" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-03-cloudwatch-lambda-a-s3-trigger.png" alt="CloudWatch Lambda A S3 Trigger" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-04-cloudwatch-pdf-native-text.png" alt="CloudWatch PDF Native Text" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-05-cloudwatch-office-file-extract.png" alt="CloudWatch Office File Extract" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-06-cloudwatch-textract-lambda-a-start.png" alt="CloudWatch Textract Lambda A Start" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-07-cloudwatch-lambda-b-sns-callback.png" alt="CloudWatch Lambda B SNS Callback" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-08-cloudwatch-lambda-b-ddb-stream-ai.png" alt="CloudWatch Lambda B DDB Stream AI" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-09-s3-console-raw-folder.png" alt="S3 Console Raw Folder" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-10-dynamodb-document-status-done.png" alt="DynamoDB Document Status Done" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-11-sns-console-subscription-active.png" alt="SNS Console Subscription Active" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-12-lambda-console-monitoring.png" alt="Lambda Console Monitoring" >}}
-
-{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-13-frontend-document-done-result.png" alt="Frontend Document Done Result" >}}
