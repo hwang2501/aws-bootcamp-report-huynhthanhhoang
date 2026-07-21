@@ -22,7 +22,7 @@ Once completed, you will have a fully functional pipeline:
 
 ### Architecture Overview
 
-{{< img src="/images/2-Proposal/architecture.png" alt="Upload Pipeline Architecture Diagram" >}}
+![Architecture Diagram](/images/2-Proposal/architecture.png)
 
 ---
 

@@ -77,10 +77,9 @@ Textract Job started: <JobId>
 [SNS] Document <id> ready for analysis (text_extracted).
 ```
 
-![PLACEHOLDER-5.3-06](/images/5-Workshop/5.3-Upload-pipeline/5.3-06-cloudwatch-textract-lambda-a-start.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-06-cloudwatch-textract-lambda-a-start.png" alt="CloudWatch Textract Lambda A Start" >}}
 
-
-![PLACEHOLDER-5.3-07](/images/5-Workshop/5.3-Upload-pipeline/5.3-07-cloudwatch-lambda-b-sns-callback.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-07-cloudwatch-lambda-b-sns-callback.png" alt="CloudWatch Lambda B SNS Callback" >}}
 
 ---
 
@@ -109,7 +108,6 @@ Textract Job started: <JobId>
 
 {{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-09-s3-console-raw-folder.png" alt="S3 Console Raw Folder" >}}
 
-
 **Step 11.** **DynamoDB Console:**
 - Go to the **DynamoDB Console → Tables → Document table**.
 - Select **Explore table items**.
@@ -117,13 +115,11 @@ Textract Job started: <JobId>
 
 {{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-10-dynamodb-document-status-done.png" alt="DynamoDB Document Status Done" >}}
 
-
 **Step 12.** **SNS Console:**
 - Go to the **SNS Console → Topics → `textract-ocr-completed-topic`**.
 - Confirm that Lambda B has an active, confirmed subscription.
 
 {{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-11-sns-console-subscription-active.png" alt="SNS Console Subscription Active" >}}
-
 
 **Step 13.** **Lambda Console:**
 - Go to **Lambda → Functions** and review invocation charts for both functions. Verify that the invocation counts increased without errors.
