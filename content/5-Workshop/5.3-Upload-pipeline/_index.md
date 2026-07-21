@@ -22,7 +22,7 @@ Once completed, you will have a fully functional pipeline:
 
 ### Architecture Overview
 
-![Architecture Diagram](/images/2-Proposal/architecture.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/architecture.png" alt="Smart Document Assistant Architecture Diagram" >}}
 
 ---
 

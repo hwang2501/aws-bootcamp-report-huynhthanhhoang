@@ -22,7 +22,7 @@ Sau khi hoàn thành phần này, bạn sẽ có một pipeline hoạt động h
 
 ### Kiến trúc tổng quan
 
-![Architecture Diagram](/images/2-Proposal/architecture.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/architecture.png" alt="Smart Document Assistant Architecture Diagram" >}}
 
 ---
 
