@@ -14,7 +14,7 @@ pre: " <b> 2. </b> "
 **Smart Document Assistant** là ứng dụng web cho phép người dùng tải lên tài liệu (PDF, Word, PowerPoint, ảnh), hệ thống tự động trích xuất văn bản bằng OCR và phân tích nội dung bằng AI để tạo ra bản tóm tắt và phân loại tài liệu theo chủ đề.
 
 - **URL deploy:** https://main.d149j5w6r2swxd.amplifyapp.com
-- **GitHub:** https://github.com/VuDaiLoc/smart-document-assistant
+- **GitHub:** https://github.com/hwang2501/smart-document-assistant.git
 
 ---
 

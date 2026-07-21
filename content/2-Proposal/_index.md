@@ -14,7 +14,7 @@ pre: " <b> 2. </b> "
 **Smart Document Assistant** is a web application that allows users to upload documents (PDF, Word, PowerPoint, images), automatically extract text via OCR, and analyze content using AI to generate summaries and classify documents by topic.
 
 - **Live URL:** https://main.d149j5w6r2swxd.amplifyapp.com
-- **GitHub:** https://github.com/VuDaiLoc/smart-document-assistant
+- **GitHub:** https://github.com/hwang2501/smart-document-assistant.git
 
 ---
 
