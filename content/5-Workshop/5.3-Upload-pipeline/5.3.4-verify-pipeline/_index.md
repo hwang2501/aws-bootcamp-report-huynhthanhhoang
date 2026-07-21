@@ -26,7 +26,7 @@ Received S3 Event: { Records: [{ s3: { bucket: { name: 'smart-doc-storage-...' }
 Processing file: raw/ap-southeast-1:.../1234567890-test.pdf from bucket: ...
 ```
 
-![PLACEHOLDER-5.3-03](/images/5-Workshop/5.3-Upload-pipeline/5.3-03-cloudwatch-lambda-a-s3-trigger.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-03-cloudwatch-lambda-a-s3-trigger.png" alt="CloudWatch Lambda A S3 Trigger" >}}
 
 ---
 
@@ -41,7 +41,7 @@ PDF has native text (1234 chars), skipping Textract.
 
 If you see "skipping Textract," Lambda A has successfully bypassed the Textract OCR process and extracted the text locally using the `pdf-parse` library, preserving formatting and Vietnamese characters.
 
-![PLACEHOLDER-5.3-04](/images/5-Workshop/5.3-Upload-pipeline/5.3-04-cloudwatch-pdf-native-text.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-04-cloudwatch-pdf-native-text.png" alt="CloudWatch PDF Native Text" >}}
 
 
 ---
@@ -55,7 +55,7 @@ Parsing office file locally: raw/...
 Extracted 5678 characters.
 ```
 
-![PLACEHOLDER-5.3-05](/images/5-Workshop/5.3-Upload-pipeline/5.3-05-cloudwatch-office-file-extract.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-05-cloudwatch-office-file-extract.png" alt="CloudWatch Office File Extract" >}}
 
 
 ---
@@ -96,7 +96,7 @@ Textract Job started: <JobId>
 [DDB Stream] Document <id> analysis complete.
 ```
 
-![PLACEHOLDER-5.3-08](/images/5-Workshop/5.3-Upload-pipeline/5.3-08-cloudwatch-lambda-b-ddb-stream-ai.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-08-cloudwatch-lambda-b-ddb-stream-ai.png" alt="CloudWatch Lambda B DDB Stream AI" >}}
 
 ---
 
@@ -107,7 +107,7 @@ Textract Job started: <JobId>
 - Confirm that the uploaded file is in the `raw/` folder.
 - If the extracted text was >300K characters, verify that a corresponding text file exists in the `processed/` folder.
 
-![PLACEHOLDER-5.3-09](/images/5-Workshop/5.3-Upload-pipeline/5.3-09-s3-console-raw-folder.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-09-s3-console-raw-folder.png" alt="S3 Console Raw Folder" >}}
 
 
 **Step 11.** **DynamoDB Console:**
@@ -115,20 +115,20 @@ Textract Job started: <JobId>
 - Select **Explore table items**.
 - Verify that the document's status progressed: `uploaded` → `processing` → `text_extracted` → `processing` → `done`.
 
-![PLACEHOLDER-5.3-10](/images/5-Workshop/5.3-Upload-pipeline/5.3-10-dynamodb-document-status-done.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-10-dynamodb-document-status-done.png" alt="DynamoDB Document Status Done" >}}
 
 
 **Step 12.** **SNS Console:**
 - Go to the **SNS Console → Topics → `textract-ocr-completed-topic`**.
 - Confirm that Lambda B has an active, confirmed subscription.
 
-![PLACEHOLDER-5.3-11](/images/5-Workshop/5.3-Upload-pipeline/5.3-11-sns-console-subscription-active.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-11-sns-console-subscription-active.png" alt="SNS Console Subscription Active" >}}
 
 
 **Step 13.** **Lambda Console:**
 - Go to **Lambda → Functions** and review invocation charts for both functions. Verify that the invocation counts increased without errors.
 
-![PLACEHOLDER-5.3-12](/images/5-Workshop/5.3-Upload-pipeline/5.3-12-lambda-console-monitoring.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-12-lambda-console-monitoring.png" alt="Lambda Console Monitoring" >}}
 
 
 ---
@@ -234,7 +234,7 @@ Once everything is working correctly, you should observe these behaviors:
 | Check SNS | The subscription is active and mapped to the Lambda B endpoint. |
 | Check Quota | The user's `uploadedCount` increases after each upload. |
 
-![PLACEHOLDER-5.3-13](/images/5-Workshop/5.3-Upload-pipeline/5.3-13-frontend-document-done-result.png)
+{{< img src="/images/5-Workshop/5.3-Upload-pipeline/5.3-13-frontend-document-done-result.png" alt="Frontend Document Done Result" >}}
 
 
 {{% notice tip %}}
