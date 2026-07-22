@@ -20,6 +20,9 @@ home = [ "HTML", "RSS", "JSON"]
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  # Logo link - override theme default
+  logo = "/"
+  logolink = "/"
   
 [Languages]
 [Languages.en]
